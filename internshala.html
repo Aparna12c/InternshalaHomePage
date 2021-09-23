@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!---------title of the page------------>
+
+<title> Internshala.com </title>
+
+<!-----------meta tags------------->
+
+<meta charset="UTF-8">
+<meta name="keywords" content="HTML, CSS, Bootstrap">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-------------------link to css------------------------->
+
+<link rel="stylesheet" type="text/css" href="internshala.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+</head>
+
+<body>
+ 
+ <!----------header section -------------------->
+
+ <header class="main-header">
+ <nav class="navigation-bar">
+
+ <div class="left-side">
+ <a href="#">
+ <img src="internshala.jpeg" alt="internshala logo" height="12%"  width="12%">
+ </a>
+</div>
+
+<div class="right-side">
+	<a href="#" class="links">Internships  <i class="fas fa-caret-down" class="icon"></i></a>
+	<a href="#" class="links">Online Trainings</a><button type="button" class="button1" >OFFER</button><i class="fas fa-caret-down" ></i>
+	<a href="#" class="links">Fresher Jobs</a>
+	<button type="button"  class="button3" >Login</button>
+	<button type="button"  class="button6" >Register    <i class="fas fa-caret-down" ></i></button>
+</div>
+ </nav>
+ </header>
+
+ <div class="search-button">
+ <form action="/action_page.php">
+  <label for="gsearch"></label>
+  <input type="search" id="gsearch" name="gsearch" placeholder="What are you looking for?"> </input>
+ </form>
+</div>
+<br>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="home_internships.png" style="width:100%">
+  <img class="mySlides" src="internship_jackpot.png" style="width:100%">
+  <img class="mySlides" src="volunteering_banner.png" style="width:100%">
+  <img class="mySlides" src="home_jobs.png" style="width:100%" Introducing Fresher Jobs>
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+<div class="internships">
+<h2><b>Internships</b></h2><br>
+<p>Apply to 10,000+ internships for free</p>
+</div>
+
+<div class="view">
+<h4>View all internships <i class="fas fa-arrow-right"></i></h4>
+</div>
+<br>
+ <br>
+<p class="cities"><b>Popular cities</b></p>
+<br>
+
+<div class="city-images">
+
+<div class="imgContainer">
+        <img src="work_from_home.png" height="" width="">
+        <p>Work from home</p>
+</div>
+    <div class="imgContainer">
+        <img  src="delhi_ncr.png" height="" width="">
+        <p>Delhi/NCR</p>
+    </div>
+    <div class="imgContainer">
+         <img src="bangalore.png" height="" width="">
+        <p>Banglore</p>
+    </div>
+
+       <div class="imgContainer">
+         <img src="mumbai.png" height="" width="">
+        <p>Mumbai</p>
+    </div>
+
+      <div class="imgContainer">
+         <img src="hyderabad.png" height="" width="">
+        <p>Hyderabad</p>
+    </div>
+
+
+      <div class="imgContainer">
+         <img src="chennai.png" height="" width="">
+        <p>Chennai</p>
+    </div>
+
+
+      <div class="imgContainer">
+         <img src="kolkata.png" height="" width="">
+        <p>Kolkata</p>
+    </div>
+
+
+      <div class="imgContainer">
+         <img src="international.png" height="" width="">
+        <p>International</p>
+    </div>
+
+</div> <!---------city-images ends here------------------>
+
+
+<p class="cities"><b>Popular categories</b></p>
+<br>
+
+<div class="popular-categories">
+
+	<div class="categories">
+        <img src="part_time.png" height="" width="">
+        <p>Part-time</p>
+</div>
+    <div class="categories">
+        <img  src="engineering.png" height="" width="">
+        <p>Engineering</p>
+    </div>
+    <div class="categories">
+         <img src="ngo.png" height="" width="">
+        <p>NGO</p>
+    </div>
+
+       <div class="categories">
+         <img src="mba.png" height="" width="">
+        <p>MBA</p>
+    </div>
+
+      <div class="categories">
+         <img src="design.png" height="" width="">
+        <p>Design</p>
+    </div>
+
+
+      <div class="categories">
+         <img src="science.png" height="" width="">
+        <p>Science</p>
+    </div>
+
+
+      <div class="categories">
+         <img src="media.png" height="" width="">
+        <p>Media</p>
+    </div>
+
+
+      <div class="categories">
+         <img src="humanities.png" height="" width="">
+        <p>Humanities</p>
+    </div>
+</div>
+<div class="international-trainings">
+<h2><b>International Trainings</b></h2><br>
+<p>Learn new-age skills on the go</p>
+</div>
+
+<div class="view">
+<h4>View all trainings <i class="fas fa-arrow-right"></i></h4>
+</div>
+<br>
+
+<div class="trainings">
+
+	<div class="categories1">
+        <img src="programming_with_python.png" height="" width="">
+        <p>Programming<br>with python</p>
+</div>
+    <div class="categories1">
+        <img src="digital_marketing.png" height="" width="">
+        <p>Digital<br>Marketing</p>
+    </div>
+    <div class="categories1">
+         <img src="web_development.png" height="" width="">
+        <p>Web<br>Development</p>
+    </div>
+
+       <div class="categories1">
+         <img src="machine_learning.png" height="" width="">
+        <p>Machine<br>Learning</p>
+    </div>
+
+      <div class="categories1">
+         <img src="advanced_excel.png" height="" width="">
+        <p>Advanced Excel</p>
+    </div>
+
+
+      <div class="categories1">
+         <img src="ethical_hacking.png" height="" width="">
+        <p>Ethical Hacking</p>
+    </div>
+
+
+      <div class="categories1">
+         <img src="autocad.png" height="" width="">
+        <p>AutoCAD</p>
+    </div>
+
+
+      <div class="categories1">
+         <img src="creative_writing.png" height="" width="">
+        <p>Creative Writing</p>
+    </div>
+</div>
+
+  <p><center>& 52 more........</center></p>
+
+
+<div class="fresher_jobs">
+<h2><b>Fresher Jobs</b><button class="fresher-button">New</button></h2>
+<br>
+<p>Premium fresher jobs on your fingertips</p>
+</div>
+
+<div class="view">
+<h4>View all  jobs <i class="fas fa-arrow-right"></i></h4>
+</div>
+<br>
+
+
+<div class="f_jobs">
+
+	<div class="categories7">
+        <img src="ctc.png" height="" width="">
+        <p>Minimum CTC of 3 LPA</p>
+</div>
+    <div class="categories8">
+        <img src="dream.png" height="" width="">
+        <p>Dream companies</p>
+    </div>
+    <div class="categories9">
+         <img src="verified.png" height="" width="">
+        <p>100% verified jobs</p>
+    </div>
+
+</div>
+
+<footer class="last_footer">
+	<div class="footer-content">
+
+ <div class="footer1">
+<h3>Internship by places</h3>
+
+<p>Internship in India</p>
+<p>Internship in Delhi</p>
+<p>Internship in Bangalore</p>
+<p>Internship in Hyderabad</p>
+<p>Internship in Mumbai</p>
+<p>Internship in Chennai</p>
+<p>Internship in Gurgaon</p>
+<p>Internship in Kolkata<p>
+<p>Virtual internship</p>
+ </div>
+
+ <div class="footer2">
+ <h3>Internship By Stream</h3>
+ 
+ <p>Computer Science Internship</p>
+<p>Electronics Internship</p>
+<p>Mechanical Internship</p>
+<p>Civil Internship</p>
+<p>Marketing Internship</p>
+<p>Chemical Internship</p>
+<p>Finance Internship</p>
+<p>Summer Research Fellowship</p>
+<p>Campus Ambassador Program</p>
+ </div>
+
+
+
+
+ <div class="footer3">
+<h3>Online trainings</h3>
+
+<p>Programming with Python</p>
+<p>Digital Marketing</p>
+<p>Web Development</p>
+<p>Machine Learning</p>
+<p>Advanced Excel</p>
+<p>Ethical Hacking</p>
+<p>AutoCAD</p>
+<p>Creative Writing</p>
+<p>Data Science</p>
+ </div>
+
+
+<div class="footer4">
+<h3>About Internshala</h3>
+
+ <p>About us</p>
+</p>We 're Hiring</p>
+<p>Hire interns for your company</p>
+<p>Team Diary</p>
+<p>Blog</p>
+<p>Our Services</p>
+<p>Terms and Conditions</p>
+<p>Privacy</p>
+<p>Contact us</p>
+ </div>
+
+</div>
+
+</body>
+
+</html>
+
+
+

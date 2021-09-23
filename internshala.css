@@ -1,0 +1,302 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter var" , sans-serif;
+}
+
+.right-side{
+	float: right;
+	display: inline-block;
+	margin-right: 7rem;
+	margin-top: -55px;
+	font-size: 14px;
+	font-weight: 500px;
+	font-color: rgb(0 , 139 , 220);
+	
+}
+
+
+a{
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.left-side{
+
+margin-top: -18px;
+
+
+
+}
+
+.button1{
+	position: relative;
+	left: -10px;
+	color: white;
+	background-color: orange;
+	border: 0px solid;
+	padding: 3px;
+	border-radius: 4px;
+
+
+}
+.button3{
+	color: #2199E8;
+	border-color:#2199E8;
+	padding: 7px 18px;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	border-width: thin;
+	cursor: pointer;
+
+
+
+}
+
+.button6
+{
+	color: white;
+	border-color:#2199E8;
+	padding: 9px 22px;
+	border-radius: 4px;
+	background-color: #2199E8;
+	border: transparent;
+	margin-left: 1rem;
+	font-weight: bolder;
+	cursor: pointer;
+
+}
+
+
+
+#gsearch{
+	margin-left: 400px;
+	margin-top: 20px;
+	padding: 15px 160px;
+	margin-top: 30px;
+}
+
+.view{
+	float: right;
+	margin-right: 6rem;
+	margin-top: -20px;
+	color: #2199E8;
+}
+
+.internships{
+	margin-left: 4.5rem;
+	margin-top: 120px;
+	font-size: 120%;
+}
+
+.cities{
+	margin-left: 4.5rem;
+}
+.wfh{
+margin-left: 4.5rem; 
+}
+.home{
+	margin-top: 2px;
+	font-family: Verdana;
+}
+
+
+
+.city-images{
+	display: flex;
+	padding: 0 16px 0 16px;
+	margin: 24px -16px 0 ;
+	height: 176px;
+	width: 1256px;
+	overflow: auto;
+	text-align: center;
+	line-height: 22px;
+	margin-left: 58px;
+	justify-content: space-evenly;
+}
+
+.img-container{
+	padding:  60px;
+}
+
+.popular-categories{
+	display: flex;
+	padding: 0 16px 0 16px;
+	margin: 24px -16px 0 ;
+	height: 176px;
+	width: 1256px;
+	overflow: auto;
+	text-align: center;
+	line-height: 22px;
+	margin-left: 58px;
+	justify-content: space-evenly;
+
+}
+.imgContainer:hover{
+	cursor: pointer;
+
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+
+.view{
+	float: right;
+	margin-right: 6rem;
+	margin-top: -20px;
+	color: #2199E8;
+}
+
+.international-trainings{
+	margin-left: 4.5rem;
+	margin-top: 120px;
+	font-size: 120%;
+}
+
+.trainings{
+	display: flex;
+	padding: 0 16px 0 16px;
+	margin: 24px -16px 0 ;
+	height: 176px;
+	width: 1256px;
+	overflow: auto;
+	text-align: center;
+	line-height: 22px;
+	margin-left: 58px;
+	justify-content: space-evenly;
+	
+}
+
+.fresher-button{
+	
+	position: relative;
+	left: 12px;
+	top: -5px;
+	padding: 7px 12px;
+	color: white;
+	background-color: orange;
+	border: transparent;
+	font-weight: bold;
+	font-size: 17px;
+	border-radius: 4px;
+}
+
+.fresher_jobs{
+	margin-left: 4.5rem;
+	margin-top: 120px;
+	font-size: 120%;
+}
+.view{
+	float: right;
+	margin-right: 6rem;
+	margin-top: -20px;
+	color: #2199E8;
+}
+
+.f_jobs{
+	display: flex;
+
+	height: 176px;
+	width: 1256px;
+	overflow: auto;
+	text-align: center;
+	line-height: 22px;
+	margin-left: 100px;
+	justify-content: space-evenly;
+	margin-right: 150px;
+	font-weight: bold;
+
+}
+
+.offer{
+    position: relative;
+	left: 12px;
+	top: -5px;
+	padding: 5px 4px;
+	color: white;
+	background-color: orange;
+	border: transparent;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 4px;
+}
+.footer-content{
+ display: flex;
+ justify-content: space-evenly;
+ background-color: #333333;
+ color: white;
+}
+
+.footer1{
+color: #ffffff; 
+font-family: "Inter var", sans-serif;
+font-size: 14px;
+font-weight: 400;
+height: 306px;
+line-height: 22px;
+margin: 0px;
+padding: 0px;
+width: 165px;
+}
+
+.footer2{
+color: #ffffff; 
+font-family: "Inter var", sans-serif;
+font-size: 14px;
+font-weight: 400;
+height: 306px;
+line-height: 22px;
+margin: 0px;
+padding: 0px;
+width: 201px;
+}
+
+.footer3{
+color: #ffffff; 
+font-family: "Inter var", sans-serif;
+font-size: 14px;
+font-weight: 400;
+height: 306px;
+line-height: 22px;
+margin: 0px;
+padding: 0px;
+width: 180px;
+}
+
+.footer4{
+color: #ffffff; 
+font-family: "Inter var", sans-serif;
+font-size: 14px;
+font-weight: 400;
+height: 306px;
+line-height: 22px;
+margin: 0px;
+padding: 0px;
+width: 196px;
+}
+
+
+
+
+.categories:hover{
+	cursor: pointer;
+
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.categories1:hover{
+	cursor: pointer;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+
+
+
+
+
